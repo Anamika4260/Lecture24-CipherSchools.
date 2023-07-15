@@ -1,0 +1,27 @@
+// An example of direct recursion
+void directRecFun()
+{
+    // Some code....
+
+    directRecFun();
+
+    // Some code...
+}
+
+// An example of indirect recursion
+void indirectRecFun1()
+{
+    // Some code...
+
+    indirectRecFun2();
+
+    // Some code...
+}
+void indirectRecFun2()
+{
+    // Some code...
+
+    indirectRecFun1();
+
+    // Some code...
+}
